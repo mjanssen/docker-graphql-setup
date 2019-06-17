@@ -3,4 +3,4 @@ services:
   app:
     build: .
     ports:
-      - "3001:3001"
+      - "3004:3004"

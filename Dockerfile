@@ -9,6 +9,6 @@ COPY . .
 
 RUN npm i
 
-EXPOSE 3001
+EXPOSE 3004
 
 CMD ["npm", "run", "server:start"]
