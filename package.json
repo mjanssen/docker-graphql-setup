@@ -1,0 +1,19 @@
+{
+  "name": "docker-graphql-setup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js",
+    "server:start": "node ./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.4.8",
+    "axios": "^0.19.0",
+    "graphql": "^14.2.1",
+    "nodemon": "^1.18.11"
+  }
+}
